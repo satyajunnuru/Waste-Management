@@ -1,0 +1,279 @@
+*{
+    margin:0;
+    padding:0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    display: flex;
+    position: sticky;
+    top: 0;
+
+}
+.left{
+    width: 50%;
+    /* background-color: yellow; */
+    display: flex;
+}
+.right{
+    width: 50%;
+    /* background-color: aquamarine; */
+    text-align: right;
+    padding: 19px;
+    padding-right: 36px;
+}
+.btn{
+    background: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 3px;
+    cursor: pointer;
+}
+.right input{
+    border-radius: 10px;
+}
+#search{
+    padding: 3px;
+    margin-right: 12px;
+}
+.logo img{
+    border-radius: 124px;
+    border: 4px solid red;
+    width: 30%;
+}
+.c1 a{
+    text-decoration: none;
+    margin: 0px 36px;
+    color: white;
+    font-weight: bolder;
+}
+.c1 a:hover{
+    color: red;
+}
+li{
+    list-style: none;
+}
+.sl{
+    margin:30px -70px;
+    display: flex;
+    /* background-color: black; */
+}
+.small{
+    font-family: 'Pacifico', cursive;
+    font-size: 31px;
+}
+.background{
+    background:rgba(0,0,0,0.7) url("ph6.webp");
+    /* mix-blend-mode: darken; */
+    background-blend-mode: darken;
+}
+.pravallika{
+    height: 110vh;
+    color: whitesmoke;
+    /* display:flex; */
+    /* justify-content: center; */
+    text-align: center;
+    padding: 54px 0px;
+    justify-content: center;
+    
+}
+.ch1{
+    display: flex;
+    text-align: left;
+    /* justify-content: center; */
+    margin-left: 32px;
+}
+.ph1 h1{
+font-family: 'League Gothic', sans-serif;
+font-size: 34px;
+}
+.ph1{
+    /* width: 80%; */
+    padding: 13px 0px;
+    margin: 13px 0px;
+}
+.ph1 p{
+    padding: 10px 0px;
+}
+.ph2 img{
+    border-radius: 254px;
+    border: 4px solid red;
+} 
+.p{
+    background-color: blue;
+    height: 100vh;
+}
+.ch2{
+    /* text-align: left; */
+    /* padding: px 0px; */
+    margin-left: 32px;
+    /* justify-content: center; */
+    text-align: left;
+    display: flex;
+}
+.ph3{
+    border: 4px solid white;
+    width: 23%;
+    /* justify-content: center; */
+    text-align: center;
+    padding: 11px;
+}
+.list{
+    padding: 9px 0px;
+}
+.list a{
+    color: white;
+    text-decoration: none;
+}
+.list a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.buttons{
+     padding: 167px 0px;
+     /* background-color: aquamarine; */
+     width: 77%;
+     justify-content: center;
+     text-align: center;
+}
+.btn1{
+    background: none;
+    color: whitesmoke;
+    border: 4px solid whitesmoke;
+    margin: 12px;
+    padding: 10px 52px;
+    cursor: pointer;
+    font-size: large;
+    font-weight: bold;
+}
+.btn1:hover{
+    color: red;
+}
+.back{
+    margin-top: 27px;
+    background: rgba(0, 0, 0, 0.7) url("PH8.jpg");
+    background-blend-mode: darken;
+}
+.p1 h1{
+    padding-top: 12px;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 31px;
+}
+.ent{
+    padding:86px 0px;
+    margin-left: 32px;
+    font-size: large;
+    color: white;
+    margin-right: 32px;
+}
+.enimg{
+    display: flex;
+    color: white;
+    margin-left: 12%;
+    margin-right: 12%;
+}
+.enimg p{
+    margin-top: 22px;
+    margin-left: 32px;
+    font-size: large;
+}
+.enimg img{
+   width: 20%;
+   border: 3px solid white;
+}
+.enimg1 img{
+   /* margin-left: 12%; */
+   width: 20%;
+   border: 3px solid white;
+   text-align: right;
+}
+.enimg1{
+    display: flex;
+    color: white;
+    margin-right: 12%;
+    margin-left: 12%;
+    padding: 22px 0px;
+}
+.enimg1 p{
+    margin-top: 22px;
+    font-size: large;
+    margin-right:32px;
+}
+.was{
+    margin-top: 27px;
+    background: rgba(0, 0, 0, 0.8) url("ph12.jpg");
+    background-blend-mode: darken;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.wass h1{
+    padding-top: 12px;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 31px;
+}
+.wass p{
+    padding-top: 64px;
+    padding-left: 32px;
+    padding-right: 22px;
+    font-size: larger;
+}
+.was2{
+    display: flex;
+    padding: 55px 0px;
+    justify-content: center;
+}
+.was2 img{
+    width: 18%;
+    padding: 0px 56px;
+}
+.was1s{
+    font-size: larger;
+    padding-left: 32px;
+    padding-top: 50px;
+}
+.was2s{
+    font-size: larger;
+    padding-right: 32px;
+    padding-top: 50px;
+}
+.was3{
+    font-size: larger;
+    padding-left: 32px;
+    padding-right: 22px;
+}
+.tp{
+    background: rgba(0, 0, 0, 0.6) url("ph16.jpg");
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200vh;
+    margin-top: 27px;
+    color: white;
+}
+.tp h1{
+    text-align: center;
+    padding-top: 12px;
+    justify-content: center;
+    color: white;
+    font-size: 31px;
+}
+
+
+
+
+
+
+@media only screen and (max-width:1440px){
+    .sl{
+        flex-direction: column;
+        margin: 115px;
+    }
+}
